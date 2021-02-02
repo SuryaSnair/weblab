@@ -1,0 +1,31 @@
+body {
+  background-image: url('img.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+h1{
+  background-color:#348d94;
+  color: white;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+  text-align:center;
+}
+form{
+max-width:600px;
+min-height:500px;
+background-color:grey;
+position:relative;
+top:20px;
+left:0px;
+opacity:0.85;
+}
+.form{
+position:relative;   
+left:25px;
+}
+label{
+font-size:25px;
+ color: white;
+}
