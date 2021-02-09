@@ -1,0 +1,36 @@
+<html>
+<head>
+</head>
+<body><center>
+<img src="img1.jpeg" height="50%" width="50%" align="center" id="image">
+</img>
+<p id="fun">Go through the images!!!!!!!</p>
+<script>
+document.getElementById("image").addEventListener("mouseover",myfunction);
+document.getElementById("image").addEventListener("mouseover",myfunction1);
+
+function myfunction()
+{
+document.getElementById("image").src="img1.jpeg";
+}
+function myfunction1()
+{
+document.getElementById("image").src="img2.jpg";
+}
+
+
+
+document.getElementById("fun").addEventListener("mouseover",myfunction2);
+document.getElementById("fun").addEventListener("mouseover",myfunction3);
+function myfunction2()
+{
+document.getElementById("fun").innerHTML="Image changed";
+}
+
+
+</script>
+
+</head>
+</center>
+</body>
+</html>
