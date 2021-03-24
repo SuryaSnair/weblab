@@ -9,7 +9,7 @@
 		<title>Welcome</title>
 		<link rel="stylesheet" type="text/css" href="css/home_style.css" />
 	</head>
-	<body style="background-color:pink">
+	<body>
 		<div id="allTheThings">
 			<a href="pending_registrations.php">
 				<input type="button" value="Pending registrations" />
